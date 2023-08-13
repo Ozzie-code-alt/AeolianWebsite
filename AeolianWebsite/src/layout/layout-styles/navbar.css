@@ -1,6 +1,7 @@
 *{
    padding: 0;
    margin: 0; 
+   font-family: 'Noto Sans', sans-serif;
 }
 
 .nav-main-container{
@@ -20,4 +21,8 @@
 .nav-main-container nav ul li{
     color: white;
     list-style: none;
+}
+
+.nav-main-container nav ul li:hover{
+  color: black;
 }

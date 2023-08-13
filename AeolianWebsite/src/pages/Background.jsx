@@ -6,7 +6,6 @@ function Background() {
   
   return (
     <>
-     
       <div className="rain rain1"></div>
       <div className="rain rain2">
         <div className="drop drop2"></div>
