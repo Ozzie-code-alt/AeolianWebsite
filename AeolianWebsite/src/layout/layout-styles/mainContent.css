@@ -1,8 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    color: white
-    
+    color: #fceeee
 }
 
 .main-content-container{
@@ -25,22 +24,25 @@
     font-weight: 10;
 }
 
-
+.btn-container{
+    transition: 0.5s ease-in-out;
+}
 .btn-container button {
-    background-color: black;
+    background-color: #67396A;
     border-radius: 15px;
     padding: 1rem 2rem;
-    transition: 0.5s ease-in-out;
-    color: white;
-   
+   border-style: none;
+    color: #fceeee;
+
 }
 
 
 
 .main-content-container .btn-container:hover{
-    box-shadow: -7px -2px gray;
-    transform: translate(5%, 5%);
+    box-shadow: 5px 10px gray;
+    transform: translate(0%, 10%);
     border-radius: 15px;
+   
 }
 
 

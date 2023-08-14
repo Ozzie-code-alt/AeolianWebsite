@@ -5,9 +5,14 @@ function Navbar() {
     <div>
       <div className="nav-main-container">
 <nav>
+  <div className="aeolian-container">
+    <p>Aeolian Logo Here</p>
+  </div>
   <ul>
-    <li>Aeolian</li>
-    <li> <button>Get Started</button></li>
+    <li> Get Aeolian</li>
+    <li> Source Code</li>
+    <li> Learn More</li>
+    <li> About Me</li>
   </ul>
 </nav>
 

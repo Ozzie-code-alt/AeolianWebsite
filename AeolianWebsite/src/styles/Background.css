@@ -7,8 +7,8 @@ html,
 body {
   margin: 0;
   height: 100%;
-  background: #1a032b;
-  overflow: hidden;
+  background: #15052A;
+  overflow: auto;
   perspective: 10rem;
 }
 
@@ -16,7 +16,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .fire-wrapper {
@@ -54,7 +54,7 @@ body {
 
 .drop {
   width: 1rem;
-  height: 7rem;
+  height: 10rem;
   background: #ffffff;
   position: absolute;
   border-radius: 20%;
@@ -153,6 +153,6 @@ body {
     transform: translateY(-1200px);
   }
   to {
-    transform: translateY(869px);
+    transform: translateY(200vh);
   }
 }
