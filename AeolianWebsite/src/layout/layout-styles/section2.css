@@ -6,3 +6,27 @@
 .main-sec2-content{
     height: 100vh;
 }
+
+.main-sec2-content .sec-2-container{
+    display: grid;
+    place-items: center;
+}
+
+
+.main-sec2-content .sec-2-container .boxes-container{
+    height: 700px;
+    max-width: 100%;
+    background-color: black;
+    display: inherit;
+    grid-template-columns: repeat(2,1fr);
+}
+.main-sec2-content .sec-2-container .boxes-container .box-1-container{
+ grid-row: 1 /span 2;
+  
+}
+
+
+
+.main-sec2-content .sec-2-container .boxes-container .box-3-container{
+    grid-column: 2/2 ;
+}

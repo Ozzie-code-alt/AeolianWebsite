@@ -5,5 +5,5 @@
 
 .main-page{
    height: 200vh; 
-   overflow: auto;
+   overflow: hidden;
 }

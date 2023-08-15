@@ -25,7 +25,7 @@
 }
 
 .btn-container{
-    transition: 0.5s ease-in-out;
+    transition: 0.5s ease;
 }
 .btn-container button {
     background-color: #67396A;
@@ -40,7 +40,7 @@
 
 .main-content-container .btn-container:hover{
     box-shadow: 5px 10px gray;
-    transform: translate(0%, 10%);
+    transform: translate(-10%, -10%);
     border-radius: 15px;
    
 }
