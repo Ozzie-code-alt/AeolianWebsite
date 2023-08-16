@@ -16,17 +16,63 @@
 .main-sec2-content .sec-2-container .boxes-container{
     height: 700px;
     max-width: 100%;
-    background-color: black;
+ 
     display: inherit;
     grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+ 
 }
 .main-sec2-content .sec-2-container .boxes-container .box-1-container{
  grid-row: 1 /span 2;
-  
+background-image: url("../../assets/background1.svg");
+background-size: cover;
+border-radius: 15px;
+position: relative;
+}
+
+.main-sec2-content .sec-2-container .boxes-container .box-1-container .box-1-description{
+height: 400px;
+padding: 1rem;
+display: grid;
+}
+
+.main-sec2-content .sec-2-container .boxes-container .box-1-container .box-1-description .main-title-container p{
+font-size: 60px;
+
+}
+
+.main-sec2-content .sec-2-container .boxes-container .box-1-container .box-1-description .sub-content-container p{
+    font-size: 20px;
+}
+
+.main-sec2-content .sec-2-container .boxes-container .box-1-container .sec2-btn-container{
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+}
+
+.main-sec2-content .sec-2-container .boxes-container .box-1-container .sec2-btn-container button{
+    padding: 10px  20px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid ;
+    
+}
+.main-sec2-content .sec-2-container .boxes-container .box-3-container{
+    grid-column: 2/2 ;
 }
 
 
 
+.main-sec2-content .sec-2-container .boxes-container .box-2-container{
+    background-image: url("../../assets/background2.svg");
+    background-size: cover;
+    border-radius: 15px;
+}
+
+
 .main-sec2-content .sec-2-container .boxes-container .box-3-container{
-    grid-column: 2/2 ;
+    background-image: url("../../assets/background3.svg");
+    background-size: cover;
+    border-radius: 15px;
 }
