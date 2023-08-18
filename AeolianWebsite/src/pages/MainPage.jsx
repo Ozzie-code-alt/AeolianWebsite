@@ -10,7 +10,8 @@ function MainPage() {
     <Navbar/>
     <Background/>
     <MainContent/>
-    <Section2/>
+    <Section2/> 
+    {/*add footer */}
     </div>
   )
 }
