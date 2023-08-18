@@ -20,29 +20,32 @@ function Section2() {
             </div>
           </div>
           <div className="box-2-container">
+            <div className="box-2-description">
             <div className="main-title-container">
               <p>Supports Customization</p>
             </div>
             <div className="sub-content-container">
-       can choose between dark and light mode as well as a host of ther features to suit your needs
+              <p>can choose between dark andlight mode as well as a host of <br />ther features to suit your <br /> needs</p>
+      
+            </div>
             </div>
             <div className="sec2-btn-container">
               <button>Learn more</button>
             </div>
           </div>
           <div className="box-3-container">
+            <div className="box-3-description">
             <div className="main-title-container">
               <p>Smart Auto- Calibration</p>
             </div>
             <div className="sub-content-container">
-      Automatically generates an image mask which is compatible with the custom stylus
+              <p>Automatically generates an image mask which is compatible <br /> with the custom stylus</p>      
             </div>
-            <div className="sec2-btn-container">
+            </div>
+            <div className="sec3-btn-container">
               <button>Learn more</button>
             </div>
           </div>
-
-
         </div>
 
 

@@ -64,15 +64,79 @@ font-size: 60px;
 
 
 
+
+
 .main-sec2-content .sec-2-container .boxes-container .box-2-container{
     background-image: url("../../assets/background2.svg");
     background-size: cover;
     border-radius: 15px;
+    position: relative;
 }
+
+
+
+
+.main-sec2-content .sec-2-container .boxes-container .box-2-container .box-2-description{
+height: 50%;
+padding: 1rem;
+display: grid;
+}
+
+
+.main-sec2-content .sec-2-container .boxes-container .box-2-container .box-2-description .main-title-container p{
+font-size: 50px;
+}
+
+.main-sec2-content .sec-2-container .boxes-container .box-2-container .box-2-description  .sub-content-container p{
+    font-size: 20px;
+}
+
+.main-sec2-content .sec-2-container .boxes-container .box-2-container .sec2-btn-container{
+position: absolute;
+bottom: 0;
+padding: 1rem;
+}
+
+.main-sec2-content .sec-2-container .boxes-container .box-2-container .sec2-btn-container button{
+    padding: 10px  20px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid ;
+}
+
 
 
 .main-sec2-content .sec-2-container .boxes-container .box-3-container{
     background-image: url("../../assets/background3.svg");
     background-size: cover;
     border-radius: 15px;
+    position: relative;
+}
+
+
+.main-sec2-content .sec-2-container .boxes-container .box-3-container .box-3-description{
+    height: 50%;
+    display: grid;
+}
+
+.main-sec2-content .sec-2-container .boxes-container .box-3-container .box-3-description .main-title-container p{
+font-size: 50px;
+}
+
+.main-sec2-content .sec-2-container .boxes-container .box-3-container .box-3-description  .sub-content-container p{
+    font-size: 20px;
+}
+
+.main-sec2-content .sec-2-container .boxes-container .box-3-container .sec3-btn-container{
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+}
+    
+
+.main-sec2-content .sec-2-container .boxes-container .box-3-container .sec3-btn-container button{
+    padding: 10px  20px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid ;
 }
