@@ -1,5 +1,7 @@
 import React from "react";
 import "../../layout/layout-styles/footer.css";
+
+
 function Footer() {
   return (
     <div className="footer-container">
@@ -52,7 +54,23 @@ function Footer() {
                 </div>
         </div>
       </div>
-      <div className="lower-grid-container"></div>
+      <div className="lower-grid-container">
+            <div className="icons-container">
+                <div className="github-icon">
+
+                </div>
+                <div className="linkedin-icon">
+
+                </div>
+                <div className="email-icon">
+
+                </div>
+            </div>
+            <div className="dev-con">
+                <p>Aeolian by Justin Santos</p>
+                
+            </div>
+      </div>
     </div>
   );
 }
