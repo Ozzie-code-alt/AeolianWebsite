@@ -25,8 +25,7 @@ place-items: center;
 .footer-container .upper-grid-container .title-container p{
     color: black;
     font-weight: 700;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 
 .footer-container .upper-grid-container .description-container p{
@@ -35,5 +34,46 @@ place-items: center;
 
 .footer-container .upper-grid-container .link-container p{
     color: rgb(66, 66, 196);
+    position: relative;
+    display: inline-block;
 }
 
+.footer-container .upper-grid-container .link-container p:hover{
+    cursor: pointer;
+}
+
+.footer-container .upper-grid-container .link-container p::after{
+    content: ""; /* Add content to the pseudo-element */
+    position: absolute; /* Position it absolutely within the relative container */
+    bottom: -3px; /* Adjust this value to control the distance of the line from text */
+    left: 0;
+    width: 100%;
+    height: 2px; /* Height of the line */
+    background-color: blue; /* Color of the line */
+    opacity: 0; /* Initially hidden */
+    transform: scaleX(0); /* Initially scale the line to 0 width */
+    transform-origin: center bottom; /* Set the transform origin */
+    transition: transform 0.2s, opacity 0.2s; /* Add transitions for smooth effect */
+}
+
+.footer-container .upper-grid-container .link-container p:hover::after{
+  
+    opacity: 1; /* Make the line visible on hover */
+    transform: scaleX(1); /* Scale the line to full width on hover */
+}
+
+.footer-container .lower-grid-container {
+  height: 100%;
+  display: grid;
+}
+
+.footer-container .lower-grid-container .icons-container{
+    display: flex;
+    gap: 1rem;
+}
+.footer-container .lower-grid-container .dev-con{
+    padding-bottom: 1rem;
+}
+.footer-container .lower-grid-container .dev-con p{
+    color: gray;
+}

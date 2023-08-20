@@ -57,13 +57,13 @@ function Footer() {
       <div className="lower-grid-container">
             <div className="icons-container">
                 <div className="github-icon">
-
+                <img src="src/assets/github.png" alt="github" height={'50px'} />
                 </div>
                 <div className="linkedin-icon">
-
+                <img src="src/assets/linkedin.png" alt="linkedin" height={'50px'}/>
                 </div>
                 <div className="email-icon">
-
+                <img src="src/assets/gmail-logo.png" alt="gmail"  height={'50px'}/>
                 </div>
             </div>
             <div className="dev-con">
