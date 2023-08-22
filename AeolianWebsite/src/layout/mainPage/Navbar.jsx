@@ -1,5 +1,6 @@
 import React from 'react'
 import '../../layout/layout-styles/navbar.css'
+import {Link} from 'react-router-dom'
 function Navbar() {
   return (
     <div>
@@ -9,7 +10,7 @@ function Navbar() {
     <p>Aeolian Logo Here</p>
   </div>
   <ul>
-    <li> Get Aeolian</li>
+    <li> <Link to={'/getAeolian'}>Get Aeolian </Link></li>
     <li> Source Code</li>
     <li> Learn More</li>
     <li> About Me</li>
