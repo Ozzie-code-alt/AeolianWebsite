@@ -28,8 +28,16 @@
     font-weight: 900;
     border-bottom: 1px solid transparent;
     transition: 0.5s ease-in-out;
+   
 }
-
+.nav-main-container nav ul li .getAeolian{
+  color: #7A5F80;
+  list-style: none;
+  font-weight: 900;
+  border-bottom: 1px solid transparent;
+  transition: 0.5s ease-in-out;
+  text-decoration: none;
+}
 .nav-main-container nav ul li:hover{
   color: whitesmoke;
   border-bottom-width: 100%; /* Increase the border width to create the effect */
@@ -37,3 +45,9 @@
   cursor:pointer;
 }
 
+.nav-main-container nav ul li .getAeolian:hover{
+  color: whitesmoke;
+  border-bottom-width: 100%; /* Increase the border width to create the effect */
+  border-bottom-color: white; /* Set the border color to white */
+  cursor:pointer;
+}

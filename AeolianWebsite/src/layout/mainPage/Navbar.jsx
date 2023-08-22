@@ -10,7 +10,7 @@ function Navbar() {
     <p>Aeolian Logo Here</p>
   </div>
   <ul>
-    <li> <Link to={'/getAeolian'}>Get Aeolian </Link></li>
+    <li> <Link to={'/getAeolian'} className='getAeolian'>Get Aeolian </Link></li>
     <li> Source Code</li>
     <li> Learn More</li>
     <li> About Me</li>
