@@ -1,0 +1,10 @@
+.upper-container{
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+}
+
+.title-container p{
+font-size: 70px;
+font-weight: bolder;
+}

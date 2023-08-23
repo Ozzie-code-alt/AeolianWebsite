@@ -16,7 +16,7 @@ function App() {
   <Route path='/' element ={<MainPage/>}/>
   <Route path="/getAeolian" element={<GetAeolian/>}/>
  </Routes>
-   
+
     {/* <MainPage/> */}
 
     </>
