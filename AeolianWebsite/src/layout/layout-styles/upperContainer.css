@@ -2,6 +2,7 @@
     display: grid;
     place-items: center;
     gap: 1rem;
+    z-index: 1;
 }
 
 .title-container p{

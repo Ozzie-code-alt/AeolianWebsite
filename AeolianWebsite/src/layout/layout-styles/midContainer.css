@@ -5,7 +5,15 @@
 
 
 .midContainer-container{
-    height: 100vh;
+    height: 100%;
     width: 100%;
+    z-index: 1;
+    text-align: center;
+}
+
+
+
+.main-title-container p {
+    font-size: 80px;
 }
 

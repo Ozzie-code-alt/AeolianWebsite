@@ -2,8 +2,6 @@ import React from "react";
 import '../styles/Background.css'
 function Background() {
 
-
-  
   return (
     <>
       <div className="rain rain1"></div>
