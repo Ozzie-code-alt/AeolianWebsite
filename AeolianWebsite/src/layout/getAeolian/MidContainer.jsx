@@ -1,7 +1,9 @@
 import React from 'react'
 import '../../layout/layout-styles/midContainer.css'
-
+import {PACKAGES} from '../../packages'
+import Packages from '../../components/Packages'
 function MidContainer() {
+
 
   return (
     <div className='midContainer-container'>
@@ -16,7 +18,7 @@ function MidContainer() {
         </div>
 
       <div className="requirements-container">
-      <div className="Software-container">
+      <div className="Software-ontainer">
 
         <p>Software</p>
         <p> <a href="#"> Python</a></p>
@@ -24,49 +26,9 @@ function MidContainer() {
 
 
       <div className="packages-container">
-
-        <div className="Open-cv-container">  {/*Change and try to put all of this on a json file then map */}
-          <p>OpenCV</p>
-          <div className="Pack-btn-container">
-            <button>pip install opencv-python</button>
-          </div>
-        </div>
-
-     <div className="Pillow-container">
-          <p>Pillow</p>
-          <div className="Pack-btn-container">
-            <button>pip install Pillow</button>
-          </div>
-        </div>
-
-        <div className="Pystray-container">
-          <p>pystray</p>
-          <div className="Pack-btn-container">
-            <button>pip install pystray</button>
-          </div>
-        </div>
-
-        <div className="Mouse-container">
-          <p>Mouse</p>
-          <div className="Pack-btn-container">
-            <button>pip install mouse</button>
-          </div>
-        </div>
-
-        <div className="PlaySound-container">
-          <p>PlaySound</p>
-          <div className="Pack-btn-container">
-            <button>pip install Playsound</button>
-          </div>
-        </div>
-
-        <div className="Pyglet-container">
-          <p>pyglet</p>
-          <div className="Pack-btn-container">
-            <button>pip install pyglet</button>
-          </div>
-        </div>
-
+    {PACKAGES.map((value) =>(
+      <Packages data={value}/> // were passing data here 
+    ))}
 
 
 
