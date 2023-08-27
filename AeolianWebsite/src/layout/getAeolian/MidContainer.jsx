@@ -20,18 +20,20 @@ function MidContainer() {
       <div className="requirements-container">
       <div className="Software-ontainer">
 
-        <p>Software</p>
+        <p className='software-text'>Software</p>
         <p> <a href="#"> Python</a></p>
       </div>
 
 
       <div className="packages-container">
+        <div className="packages">
+
+
+        <p className='packages-text'>Packages</p>
     {PACKAGES.map((value) =>(
       <Packages data={value}/> // were passing data here 
     ))}
-
-
-
+     </div>
       </div>
       </div>
 

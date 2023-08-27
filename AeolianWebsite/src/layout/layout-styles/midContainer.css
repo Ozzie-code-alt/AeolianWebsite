@@ -9,11 +9,49 @@
     width: 100%;
     z-index: 1;
     text-align: center;
+    display: grid;
 }
 
 
 
 .main-title-container p {
     font-size: 80px;
+}
+
+
+.requirements-container{
+    display: grid;
+}
+
+.Software-ontainer .software-text{
+font-size: 70px;
+}
+
+.packages-container{
+  display: grid;
+  place-items: center;
+}
+
+.packages{
+    display: grid;
+  width: 900px;
+  max-width: 900px;
+  text-align: left;
+  gap: 1rem;
+}
+
+.packages .packages-text{
+    font-size:70px ;
+   padding-bottom: 2rem;
+}
+.Container{
+    display: flex;
+    gap: 1rem;
+    padding-left: 5rem;
+}
+
+.Container a{
+    list-style: none;
+    text-decoration: none;
 }
 
