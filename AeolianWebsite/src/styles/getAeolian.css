@@ -4,8 +4,7 @@
 }
 
 .get-main-container{
-    height: 190vh;
+    height: 350vh;
     display: grid;
     place-items: center;
-    
 }

@@ -1,0 +1,27 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+.how-to-container{
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.description-container{
+display: inherit;
+place-items: center;
+}
+
+.title-container{
+    text-align: center;
+}
+
+.title-container p {
+    font-size: 30px;
+    font-weight: 200;
+}
