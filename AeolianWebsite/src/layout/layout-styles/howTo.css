@@ -13,7 +13,7 @@ margin: 0;
 }
 
 .description-container{
-display: inherit;
+display: grid;
 place-items: center;
 }
 
@@ -24,4 +24,7 @@ place-items: center;
 .title-container p {
     font-size: 30px;
     font-weight: 200;
+}
+.list-container{
+    margin: 5rem;
 }
