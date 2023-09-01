@@ -6,7 +6,7 @@ function HowTo() {
     <section className='how-to-container'>
           <div className="description-container">
             <div className="description">
-            <div className="title-container">
+            <div className="title-container-HOW">
                 <p>How to download the packages</p>
             </div>
             <div className="list-container">

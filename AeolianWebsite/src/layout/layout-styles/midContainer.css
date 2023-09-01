@@ -55,3 +55,11 @@ font-size: 70px;
     text-decoration: none;
 }
 
+.description {
+    height: 70%;
+}
+
+.list-container ul{
+    display: grid;
+    gap: 4rem;
+}

@@ -17,13 +17,13 @@ display: grid;
 place-items: center;
 }
 
-.title-container{
+.title-container-HOW{
     text-align: center;
 }
 
-.title-container p {
-    font-size: 30px;
-    font-weight: 200;
+.title-container-HOW p {
+    font-size: 50px;
+    font-weight: 100;
 }
 .list-container{
     margin: 5rem;

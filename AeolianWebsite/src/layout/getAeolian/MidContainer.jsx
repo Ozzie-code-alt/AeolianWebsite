@@ -9,6 +9,7 @@ function MidContainer() {
     <div className='midContainer-container'>
 
         <div className="upper-text">
+
         <div className="main-title-container">
             <p>Requirements for Source Code </p>
         </div>
