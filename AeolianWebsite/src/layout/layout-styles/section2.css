@@ -15,7 +15,7 @@
 
 
 .main-sec2-content .sec-2-container .boxes-container{
-    height: 700px;
+    height: 600px;
     max-width: 100%;
  
     display: inherit;
@@ -61,8 +61,12 @@ font-size: 60px;
 }
 .main-sec2-content .sec-2-container .boxes-container .box-3-container{
     grid-column: 2/2 ;
+   
 }
 
+.main-sec2-content .sec-2-container .boxes-container .box-3-container  .box-3-description{
+    padding: 1rem;
+}
 
 
 

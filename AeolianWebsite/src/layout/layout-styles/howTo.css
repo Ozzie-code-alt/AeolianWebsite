@@ -28,3 +28,9 @@ place-items: center;
 .list-container{
     margin: 5rem;
 }
+
+.picture-container{
+    display: flex;
+    align-items: center;
+ 
+}

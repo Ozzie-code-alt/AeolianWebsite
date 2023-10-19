@@ -23,7 +23,7 @@ function HowTo() {
           </div>
 
           <div className="picture-container">
-
+              <img src="\assets\download_Aeolian.svg" alt="Download_Picture"  />
           </div>
           
     </section>

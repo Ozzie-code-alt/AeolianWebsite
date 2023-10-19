@@ -4,7 +4,6 @@ import {PACKAGES} from '../../packages'
 import Packages from '../../components/Packages'
 function MidContainer() {
 
-
   return (
     <div className='midContainer-container'>
 

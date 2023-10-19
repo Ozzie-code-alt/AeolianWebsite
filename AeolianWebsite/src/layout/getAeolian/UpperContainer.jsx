@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 function UpperContainer() {
   return (
     <div className="upper-container">
-    <div className="title-container">
+    <div className="title-container ">
     <p>Get Aeolian</p>
     </div>
     <div className="btn-container bg">
