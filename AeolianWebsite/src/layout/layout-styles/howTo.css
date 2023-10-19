@@ -12,6 +12,7 @@ margin: 0;
     grid-template-columns: repeat(2,1fr);
 }
 
+/* .get-main-container{} */
 .description-container{
 display: grid;
 place-items: center;
