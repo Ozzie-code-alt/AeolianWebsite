@@ -12,8 +12,8 @@ function Navbar() {
   <ul>
     <li> <Link to={'/getAeolian'} className='getAeolian'>Get Aeolian </Link></li>
     <li>  <Link to ={"https://github.com/Ozzie-code-alt/Aeolian"} className='sourceCode'>Source Code</Link></li>
-    <li> Learn More</li>
-    <li> About Me</li>
+    <li>  <Link to={"/LearnMore"} className='sourceCode'>Learn More </Link></li>
+    <li> <Link to={"/Aboutme"} className='sourceCode' >About Me</Link></li>
   </ul>
 </nav>
 
