@@ -1,0 +1,34 @@
+*{
+    border: #ff0000 1px solid;
+}
+
+.Main-Container{
+    display: grid;
+  
+}
+
+.title-container{
+    
+    display: grid;
+    text-align: center;
+    margin-top: 3rem;
+}
+.title-container h1{
+    font-size: 4rem;
+}
+
+.title-container span{
+color: gold;
+}
+
+.swiper {
+    width: 1000px;
+    height: 400px;
+  }
+
+.swiperContainer{
+margin-top: 6rem;
+height: 500px;
+}
+
+    

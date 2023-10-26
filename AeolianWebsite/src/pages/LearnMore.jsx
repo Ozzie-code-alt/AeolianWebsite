@@ -1,9 +1,11 @@
 import React from "react";
-import learmSection1 from "../layout/learnMore/learn-section1";
+import '../styles/learnMore.css'
+import LearnUpper from "../layout/learnMore/UpperContainer";
+
 
 function LearnMore () {
     return ( <div className="learnMore-container">
-        <learmSection1/>
+       <LearnUpper/>
     </div> );
 }
  
