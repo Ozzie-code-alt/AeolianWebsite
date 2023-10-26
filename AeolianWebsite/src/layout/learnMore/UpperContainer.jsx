@@ -11,8 +11,7 @@ import 'swiper/css';
 const LearnUpper = () => {
 
 
-      
-
+    
   return <div className="Main-Container">
 
     <div className="title-container">

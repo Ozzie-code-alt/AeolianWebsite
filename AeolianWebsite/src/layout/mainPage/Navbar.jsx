@@ -7,8 +7,8 @@ function Navbar() {
       <div className="nav-main-container">
 <nav>
   <div className="aeolian-container">
-  <Link to={'/'}><img src="src/assets/Aeolian Name.png" alt="" srcset="" width={100} />  </Link> 
-   <Link to={'/'}><img src="src/assets/A Logo.png" alt="" srcset=""  width={100} />  </Link> 
+  <Link to={'/'}><img src="src/assets/Aeolian Name White.png" alt="" srcset="" width={100} />  </Link> 
+   <Link to={'/'}><img src="src/assets/A Logo.png" alt="" srcset=""  width={100}  className='navLogo'/>  </Link> 
   </div>
   <ul>
     <li> <Link to={'/getAeolian'} className='getAeolian'>Get Aeolian </Link></li>

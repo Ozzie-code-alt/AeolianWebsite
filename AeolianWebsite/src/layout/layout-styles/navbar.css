@@ -4,6 +4,10 @@
    font-family: 'Noto Sans', sans-serif;
 }
 
+.aeolian-container a{
+  color: transparent;
+
+}
 .nav-main-container{
     width: 100%;
     height: 6rem;

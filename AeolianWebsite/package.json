@@ -20,6 +20,7 @@
     "react-dom": "^18.2.0",
     "react-id-swiper": "^4.0.0",
     "react-router-dom": "^6.15.0",
+    "react-type-animation": "^3.2.0",
     "swiper": "^11.0.3",
     "three": "^0.155.0"
   },
