@@ -8,10 +8,7 @@ import 'swiper/css';
 
 
 
-const LearnUpper = () => {
-
-
-    
+const LearnUpper = () => {    
   return <div className="Main-Container">
 
     <div className="title-container">
