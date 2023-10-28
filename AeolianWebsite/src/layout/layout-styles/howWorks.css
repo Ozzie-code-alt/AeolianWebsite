@@ -2,3 +2,30 @@
     padding: 0;
     margin: 0;
 }
+
+.howWorks-container{
+    margin-top: 2rem;
+    display: grid;
+}
+
+.title-container{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+
+.card-container{
+    display: grid;
+    place-items: center;
+    height: 50vh;
+    gap: 1rem;
+}
+
+.card-element{
+    width: 1000px;
+}
+
+.card-title{
+    font-size: 40px;
+    font-weight: 700;
+}

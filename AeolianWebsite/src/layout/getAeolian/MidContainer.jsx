@@ -27,8 +27,6 @@ function MidContainer() {
 
       <div className="packages-container">
         <div className="packages">
-
-
         <p className='packages-text'>Packages</p>
     {PACKAGES.map((value) =>(
       <Packages data={value}/> // were passing data here 

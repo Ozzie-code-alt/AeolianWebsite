@@ -5,6 +5,7 @@ import Navbar from "./layout/mainPage/Navbar"
 import Background from "./pages/Background"
 import AboutMe from "./pages/Aboutme"
 import LearnMore from "./pages/LearnMore"
+import'bootstrap/dist/css/bootstrap.min.css'
 function App() {
 
 
@@ -12,7 +13,7 @@ function App() {
   return (
     <>
   <Navbar/>
-  <Background/>
+  <Background/> 
  <Routes>
   <Route path='/' element ={<MainPage/>}/>
   <Route path="/getAeolian" element={<GetAeolian/>}/>

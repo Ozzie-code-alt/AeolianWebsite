@@ -6,3 +6,7 @@
 .btn-container button:hover{
     cursor:pointer;
 }
+
+.name-container p {
+    font-size: 2rem;
+}
